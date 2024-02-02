@@ -1,44 +1,17 @@
-{
-  "objectid": "pb123",
-  "owner": {
-    "objectid": "c123",
-    "phone": "555-555-5555",
-    "name": "John Doe",
-    "title": "Software Engineer",
-    "age": 30,
-    "address": {
-      "objectid": "a123",
-      "street": "123 Main St",
-      "city": "Anytown",
-      "state": "CA"
-    }
+[
+  {
+    "nombre": "Juan Pérez",
+    "telefono": "123-456-7890",
+    "correo": "juan@example.com"
   },
-  "contacts": [
-    {
-      "objectid": "c456",
-      "phone": "555-555-4567",
-      "name": "Jane Smith",
-      "title": "Project Manager",
-      "age": 35,
-      "address": {
-        "objectid": "a456",
-        "street": "456 Elm St",
-        "city": "Anytown",
-        "state": "CA"
-      }
-    },
-    {
-      "objectid": "c789",
-      "phone": "555-555-7890",
-      "name": "Bob Johnson",
-      "title": "QA Engineer",
-      "age": 40,
-      "address": {
-        "objectid": "a789",
-        "street": "789 Oak St",
-        "city": "Anytown",
-        "state": "CA"
-      }
-    }
-  ]
-}
+  {
+    "nombre": "María Gómez",
+    "telefono": "987-654-3210",
+    "correo": "maria@example.com"
+  },
+  {
+    "nombre": "Carlos Rodríguez",
+    "telefono": "555-123-4567",
+    "correo": "carlos@example.com"
+  }
+]
