@@ -30,10 +30,18 @@ httpRequest.onreadystatechange = function(){
     let datos = JSON.parse(this.responseText)
     console.log(datos)
 
+    //agregamos un nuevo selector para imprimir la respuesta, con innerHtml lo imprimimos
+    let res = document.querySelector('#res');
+    res.innerHTML = '';
+
     //accedemos a los valores del array con un bucle for
-   for(let items of datos){
-      console.log(items.artist)
-    }
+    for (let items of datos) {
+      // imprimira la iteracion solicitada
+      res.innerHTML += `
+          <div id="res">
+              <p>${items.nombre}</p><p>${items.telefono}</p><p>${items.correo}</p>
+          </div>`;
+  }
 
   }
 }
